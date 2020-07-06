@@ -1,8 +1,8 @@
 module.exports = {
   defaultTitle: 'Nikos Spiropoulos',
-  logo: 'srcassets\thumbnail\thumbnail.png',
+  logo: '../assets/thumbnail/thumbnail.png',
   author: 'Nikos Spiropoulos',
-  url: 'https://portfolio.smakosh.com',
+  url: 'https://nikosspiropoulos.netlify.app/',
   legalName: 'Nikos Spiropoulos',
   defaultDescription: 'I’m John and I’m a Backend & Devops engineer!',
   socialLinks: {
