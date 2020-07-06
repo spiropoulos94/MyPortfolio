@@ -4,7 +4,7 @@ module.exports = {
   author: 'Nikos Spiropoulos',
   url: 'https://nikosspiropoulos.netlify.app/',
   legalName: 'Nikos Spiropoulos',
-  defaultDescription: 'I’m John and I’m a Backend & Devops engineer!',
+  defaultDescription: 'I am Nikos, a Junior Front End Developer',
   socialLinks: {
     github: 'https://github.com/spiropoulos94',
     linkedin: 'https://www.linkedin.com/in/nikos-spiropoulos-813167181/',
