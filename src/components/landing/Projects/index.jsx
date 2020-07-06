@@ -28,7 +28,7 @@ export const Projects = () => {
   return (
     <div>
       <h1 style={{ textAlign: 'center' }}>Projects</h1>
-      <Wrapper>
+      <Wrapper id="projects">
         <Grid>
           {projectsNodeArray.map(({ node }) => (
             <Item key={uuidv4()}>
