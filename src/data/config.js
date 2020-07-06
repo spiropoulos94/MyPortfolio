@@ -1,6 +1,6 @@
 module.exports = {
   defaultTitle: 'Nikos Spiropoulos',
-  logo: '../assets/thumbnail/thumbnail.png',
+  logo: '/../.././src/assets/thumbnail/thumbnail.png',
   author: 'Nikos Spiropoulos',
   url: 'https://nikosspiropoulos.netlify.app/',
   legalName: 'Nikos Spiropoulos',
