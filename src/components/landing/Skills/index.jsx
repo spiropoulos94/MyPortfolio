@@ -13,9 +13,9 @@ export const Skills = () => (
       <Details>
         <h1>About me</h1>
         <p>
-          I have a deep interest in Front End technologies and and coding in general, and I am extremely fascinated by
-          blazing fast Javascript frameworks like React JS. Passionate about solving problems, learning new skills and
-          practically implementing them in daily tasks.
+          My name is Nikos and I am a bootcamp graduate. I have a deep interest in Front End technologies and and coding
+          in general, and I am extremely fascinated by blazing fast Javascript frameworks like React JS. Passionate
+          about solving problems, learning new skills and practically implementing them in daily tasks.
         </p>
         <Button as={AnchorLink} href="#contact">
           Contact Me
