@@ -31,7 +31,7 @@ export const Projects = () => {
       <h1 style={{ textAlign: 'center' }}>Projects</h1>
       <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'space-around' }}>
         <span style={{ color: 'red' }}>In Progress</span>
-        <span style={{ color: 'green' }}>Finished</span>
+        <span style={{ color: 'green' }}>Completed</span>
       </div>
       <Wrapper id="projects">
         <Grid>
