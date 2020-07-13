@@ -16,6 +16,7 @@ export const Projects = () => {
               title
               description
               link
+              status
             }
           }
         }
@@ -28,13 +29,23 @@ export const Projects = () => {
   return (
     <div>
       <h1 style={{ textAlign: 'center' }}>Projects</h1>
+      <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'space-around' }}>
+        <span style={{ color: 'red' }}>In Progress</span>
+        <span style={{ color: 'green' }}>Finished</span>
+      </div>
       <Wrapper id="projects">
         <Grid>
           {projectsNodeArray.map(({ node }) => (
             <Item key={uuidv4()}>
               <Card>
                 <Title>{node.frontmatter.title}</Title>
+
                 <Description>{node.frontmatter.description}</Description>
+                {node.frontmatter.status === 'finished' ? (
+                  <p style={{ fontSize: '1.001em', color: 'green' }}>(Completed)</p>
+                ) : (
+                  <p style={{ fontSize: '1.001em', color: 'red' }}>(In progress)</p>
+                )}
                 <Link>
                   <a href={node.frontmatter.link} target="_blank">
                     Go to project page
