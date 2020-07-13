@@ -29,10 +29,7 @@ export const Projects = () => {
   return (
     <div>
       <h1 style={{ textAlign: 'center' }}>Projects</h1>
-      <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'space-around' }}>
-        <span style={{ color: 'red' }}>In Progress</span>
-        <span style={{ color: 'green' }}>Completed</span>
-      </div>
+      <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'space-around' }}></div>
       <Wrapper id="projects">
         <Grid>
           {projectsNodeArray.map(({ node }) => (
