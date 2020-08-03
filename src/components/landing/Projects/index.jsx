@@ -4,7 +4,7 @@ import { Container, Card } from 'components/common';
 
 import styled from 'styled-components';
 import { v4 as uuidv4 } from 'uuid';
-import { Wrapper, Grid, Item, Title, Description, Link } from './styles';
+import { Wrapper, Grid, Item, Title, Description, Link, Button } from './styles';
 
 export const Projects = () => {
   const data = useStaticQuery(graphql`
@@ -45,7 +45,7 @@ export const Projects = () => {
                 )}
                 <Link>
                   <a href={node.frontmatter.link} target="_blank">
-                    Go to project page
+                    <Button>Go to project page</Button>
                   </a>
                 </Link>
               </Card>
